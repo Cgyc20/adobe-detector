@@ -41,7 +41,7 @@ def top_left_fixed_crop(old_filepath, crop_size=128):
                 print(f"Error processing {filename}: {e}")
 
 if __name__ == "__main__":
-    old_filepath = '/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/Data/SusClusters/Cluster1'
-    crop_size = 2048  # Change this to 256 or any other size if needed
+    old_filepath = '/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/Data/NonAdobeImages'
+    crop_size = 512 # Change this to 256 or any other size if needed
 
     top_left_fixed_crop(old_filepath, crop_size)
