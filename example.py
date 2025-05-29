@@ -21,7 +21,10 @@ def main():
     w = estimate_pattern()
     np.save(w_path, w)
 
-  im_list = np.array(sorted(glob("./test_images/*.jpg")))
+  #filepath = '/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/Data/SusClusters/Cluster1/*.jpg'
+  filepath = '/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/Data/SusClusters/Cluster1/cropped_images_top_left/*.jpg'
+  test_path = "./test_images/*.jpg"
+  im_list = np.array(sorted(glob(filepath)))
   pattern_present = np.zeros((len(im_list)), dtype=bool)
   statistic = np.zeros((len(im_list)))
   for i, im_name in enumerate(im_list):
