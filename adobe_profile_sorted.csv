@@ -1,0 +1,697 @@
+Function,Calls,Primitive Calls,Total Time (s),Cumulative Time (s),Time per Call (total),Time per Call (cumulative),Filename:Line
+<built-in method builtins.exec>,19,1,0.000089,20.686095,0.000005,1.088742,~:0
+main,1,1,0.002752,20.682518,0.002752,20.682518,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/profile_example.py:14
+detect_adobe_pattern,2,2,0.022100,20.340383,0.011050,10.170191,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/detectAdobe.py:66
+test_statistic,2,2,0.181876,20.317769,0.090938,10.158885,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/detectAdobe.py:40
+extract_single,2,2,0.070555,19.743271,0.035277,9.871635,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/prnu/functions.py:28
+noise_extract,2,2,0.350232,12.635670,0.175116,6.317835,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/prnu/functions.py:51
+wiener_adaptive,74,74,1.689190,11.334350,0.022827,0.153167,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/prnu/functions.py:316
+wiener_dft,2,2,0.549223,6.799228,0.274612,3.399614,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/prnu/functions.py:208
+uniform_filter,296,296,0.001734,4.267097,0.000006,0.014416,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/ndimage/_filters.py:1119
+uniform_filter1d,592,592,0.001409,4.114055,0.000002,0.006949,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/ndimage/_filters.py:1068
+<built-in method scipy.ndimage._nd_image.uniform_filter1d>,592,592,4.111282,4.111282,0.006945,0.006945,~:0
+threshold,74,74,3.070886,3.070886,0.041498,0.041498,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/prnu/functions.py:305
+wavedec2,6,6,0.002891,2.970322,0.000482,0.495054,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multilevel.py:179
+dwt2,24,24,0.007136,2.966983,0.000297,0.123624,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multidim.py:22
+dwtn,24,24,2.958787,2.959111,0.123283,0.123296,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multidim.py:119
+waverec2,6,6,0.006740,2.324018,0.001123,0.387336,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multilevel.py:256
+<method 'reduce' of 'numpy.ufunc' objects>,151,151,2.322816,2.322816,0.015383,0.015383,~:0
+idwt2,24,24,0.022067,2.317086,0.000919,0.096545,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multidim.py:75
+idwtn,24,24,2.293437,2.295017,0.095560,0.095626,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multidim.py:219
+min,81,81,0.000245,2.227732,0.000003,0.027503,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3190
+_wrapreduction,82,82,0.000483,2.227493,0.000006,0.027165,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:69
+_raw_fftnd,4,4,0.020000,1.691419,0.005000,0.422855,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/fft/_pocketfft.py:735
+_raw_fft,8,8,1.671203,1.671211,0.208900,0.208901,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/fft/_pocketfft.py:51
+fft2,2,2,0.000009,1.016529,0.000004,0.508265,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/fft/_pocketfft.py:1013
+fft,4,4,0.000018,1.012272,0.000004,0.253068,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/fft/_pocketfft.py:113
+ifft2,2,2,0.000006,0.674904,0.000003,0.337452,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/fft/_pocketfft.py:1138
+ifft,4,4,0.000013,0.658973,0.000003,0.164743,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/fft/_pocketfft.py:213
+<built-in method numpy.array>,26,26,0.030237,0.643474,0.001163,0.024749,~:0
+__array_interface__,4,4,0.031395,0.613229,0.007849,0.153307,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:738
+tobytes,4,4,0.001158,0.581758,0.000289,0.145440,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:766
+load,4,4,0.004713,0.485545,0.001178,0.121386,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:186
+<method 'decode' of 'ImagingDecoder' objects>,524,524,0.466295,0.466295,0.000890,0.000890,~:0
+<built-in method numpy.zeros>,374,374,0.219201,0.219201,0.000586,0.000586,~:0
+_get_output,888,888,0.001884,0.150844,0.000002,0.000170,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/ndimage/_ni_support.py:78
+zero_mean_total,2,2,0.030981,0.146480,0.015490,0.073240,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/prnu/functions.py:268
+<method 'astype' of 'numpy.ndarray' objects>,10,10,0.144136,0.144136,0.014414,0.014414,~:0
+zero_mean,8,8,0.075256,0.115499,0.009407,0.014437,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/prnu/functions.py:234
+_wrapfunc,8,8,0.000038,0.102160,0.000005,0.012770,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:51
+nonzero,2,2,0.000005,0.102056,0.000003,0.051028,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:2018
+<method 'nonzero' of 'numpy.ndarray' objects>,2,2,0.102035,0.102035,0.051017,0.051017,~:0
+_std,6,6,0.005017,0.090899,0.000836,0.015150,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_methods.py:221
+_var,6,6,0.049764,0.085881,0.008294,0.014314,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_methods.py:151
+<method 'encode' of 'ImagingEncoder' objects>,5336,5336,0.064783,0.064783,0.000012,0.000012,~:0
+_mean,40,40,0.000558,0.060529,0.000014,0.001513,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_methods.py:118
+std,4,4,0.000014,0.050421,0.000004,0.012605,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3869
+<method 'mean' of 'numpy.ndarray' objects>,34,34,0.000082,0.040552,0.000002,0.001193,~:0
+<method 'std' of 'numpy.ndarray' objects>,2,2,0.000035,0.040528,0.000017,0.020264,~:0
+rgb2gray,2,2,0.019839,0.035170,0.009920,0.017585,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/prnu/functions.py:281
+<method 'join' of 'bytes' objects>,6,6,0.029743,0.029743,0.004957,0.004957,~:0
+mean,6,6,0.000031,0.020090,0.000005,0.003348,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3735
+open,4,4,0.000070,0.016135,0.000017,0.004034,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3409
+_find_and_load,611,598,0.000465,0.015051,0.000001,0.000025,<frozen importlib._bootstrap>:1349
+_handle_fromlist,22,9,0.000027,0.013930,0.000001,0.000633,<frozen importlib._bootstrap>:1390
+_call_with_frames_removed,56,6,0.000017,0.013918,0.000000,0.000249,<frozen importlib._bootstrap>:480
+<built-in method builtins.__import__>,17,6,0.000021,0.013916,0.000001,0.000819,~:0
+_find_and_load_unlocked,19,6,0.000064,0.013790,0.000003,0.000726,<frozen importlib._bootstrap>:1304
+_load_unlocked,19,6,0.000034,0.013517,0.000002,0.000711,<frozen importlib._bootstrap>:911
+exec_module,18,6,0.000021,0.013423,0.000001,0.000746,<frozen importlib._bootstrap_external>:989
+preinit,4,4,0.000010,0.011085,0.000003,0.002771,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:344
+load_prepare,4,4,0.000010,0.010737,0.000003,0.002684,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:323
+<built-in method PIL._imaging.new>,4,4,0.010726,0.010726,0.002682,0.002682,~:0
+<method 'read' of '_io.BufferedReader' objects>,678,678,0.006938,0.006938,0.000010,0.000010,~:0
+__getattr__,296,296,0.000415,0.006253,0.000001,0.000021,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/ndimage/filters.py:24
+_sub_module_deprecation,296,296,0.001033,0.005838,0.000003,0.000020,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/_lib/deprecation.py:15
+get_code,18,18,0.000066,0.005775,0.000004,0.000321,<frozen importlib._bootstrap_external>:1062
+<module>,1,1,0.000016,0.005014,0.000016,0.005014,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/GifImagePlugin.py:1
+_open_core,4,4,0.000053,0.004430,0.000013,0.001108,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3482
+jpeg_factory,4,4,0.000012,0.004289,0.000003,0.001072,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:870
+__init__,4,4,0.000058,0.004264,0.000015,0.001066,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:113
+_open,4,4,0.000096,0.004154,0.000024,0.001038,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:339
+load_read,524,524,0.000138,0.003662,0.000000,0.000007,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:408
+_read_dpi_from_exif,4,4,0.000020,0.003584,0.000005,0.000896,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:498
+get_data,18,18,0.000025,0.003455,0.000001,0.000192,<frozen importlib._bootstrap_external>:1183
+module_from_spec,19,19,0.000020,0.003368,0.000001,0.000177,<frozen importlib._bootstrap>:806
+getexif,4,4,0.000043,0.003358,0.000011,0.000840,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:1515
+load,4,4,0.000070,0.003305,0.000018,0.000826,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3952
+<module>,1,1,0.000005,0.003230,0.000005,0.003230,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageMath.py:1
+create_module,1,1,0.000001,0.003156,0.000001,0.003156,<frozen importlib._bootstrap_external>:1287
+<built-in method _imp.create_dynamic>,1,1,0.003153,0.003153,0.003153,0.003153,~:0
+_name_get,296,296,0.000865,0.002687,0.000003,0.000009,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_dtype.py:350
+import_module,592,592,0.000663,0.002641,0.000001,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/importlib/__init__.py:73
+<module>,1,1,0.000017,0.002165,0.000017,0.002165,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/BmpImagePlugin.py:1
+<module>,1,1,0.000057,0.002137,0.000057,0.002137,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:1
+<built-in method _warnings.warn>,296,296,0.002047,0.002047,0.000007,0.000007,~:0
+_compile_bytecode,18,18,0.000575,0.002042,0.000032,0.000113,<frozen importlib._bootstrap_external>:751
+_gcd_import,592,592,0.000314,0.001707,0.000001,0.000003,<frozen importlib._bootstrap>:1375
+<built-in method builtins.__build_class__>,44,44,0.000338,0.001673,0.000008,0.000038,~:0
+compile,5,5,0.000004,0.001579,0.000001,0.000316,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/__init__.py:226
+_compile,5,5,0.000040,0.001575,0.000008,0.000315,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/__init__.py:280
+compile,5,5,0.000019,0.001489,0.000004,0.000298,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:740
+<built-in method marshal.loads>,18,18,0.001460,0.001460,0.000081,0.000081,~:0
+unique,48,48,0.000088,0.001310,0.000002,0.000027,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py:145
+<module>,1,1,0.000010,0.001309,0.000010,0.001309,/opt/miniconda3/envs/FastEnv/lib/python3.12/fractions.py:1
+_name_includes_bit_suffix,296,296,0.000391,0.001307,0.000001,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_dtype.py:334
+<module>,1,1,0.000004,0.001122,0.000004,0.001122,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImagePalette.py:1
+_normalize_sequence,888,888,0.000514,0.001039,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/ndimage/_ni_support.py:62
+_unique1d,48,48,0.000691,0.001021,0.000014,0.000021,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py:339
+parse,5,5,0.000016,0.000967,0.000003,0.000193,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:969
+_parse_sub,33,5,0.000071,0.000941,0.000002,0.000029,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:452
+issubdtype,296,296,0.000454,0.000916,0.000002,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/numerictypes.py:471
+_parse,39,5,0.000331,0.000908,0.000008,0.000023,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:512
+<built-in method builtins.isinstance>,4113,4113,0.000808,0.000892,0.000000,0.000000,~:0
+_fix_coeffs,24,24,0.000201,0.000833,0.000008,0.000035,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multidim.py:193
+<module>,1,1,0.000020,0.000730,0.000020,0.000730,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PngImagePlugin.py:1
+<built-in method builtins.getattr>,2026,2026,0.000637,0.000639,0.000000,0.000000,~:0
+_find_spec,19,19,0.000074,0.000638,0.000004,0.000034,<frozen importlib._bootstrap>:1240
+__new__,4,4,0.000110,0.000621,0.000027,0.000155,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:2809
+get_threshold,3,3,0.000004,0.000588,0.000001,0.000196,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/detectAdobe.py:30
+inv_qfunc,3,3,0.000017,0.000584,0.000006,0.000195,/Users/charliecameron/CodingHub/CGC_Solutions/AdobeProject/adobe-detector/detectAdobe.py:22
+ppf,3,3,0.000200,0.000567,0.000067,0.000189,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/stats/_distn_infrastructure.py:2272
+<method 'append' of 'list' objects>,6313,6313,0.000564,0.000564,0.000000,0.000000,~:0
+<built-in method numpy.asarray>,1742,1742,0.000563,0.000563,0.000000,0.000000,~:0
+_make_nmtuple,4,4,0.000023,0.000506,0.000006,0.000126,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:2790
+_code,5,5,0.000018,0.000493,0.000004,0.000099,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:573
+find_spec,19,19,0.000009,0.000487,0.000000,0.000026,<frozen importlib._bootstrap_external>:1520
+<built-in method _io.open_code>,18,18,0.000486,0.000486,0.000027,0.000027,~:0
+_get_spec,19,19,0.000021,0.000479,0.000001,0.000025,<frozen importlib._bootstrap_external>:1491
+_wavelets_per_axis,54,54,0.000057,0.000470,0.000001,0.000009,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_utils.py:36
+<built-in method builtins.print>,6,6,0.000113,0.000469,0.000019,0.000078,~:0
+find_spec,20,20,0.000084,0.000453,0.000004,0.000023,<frozen importlib._bootstrap_external>:1593
+issubclass_,592,592,0.000246,0.000443,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/numerictypes.py:289
+load,1,1,0.000018,0.000432,0.000018,0.000432,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py:308
+iterable,595,595,0.000216,0.000428,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:339
+<method 'get' of 'dict' objects>,950,950,0.000411,0.000411,0.000000,0.000000,~:0
+_as_wavelet,54,54,0.000384,0.000403,0.000007,0.000007,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_utils.py:23
+read_array,1,1,0.000012,0.000382,0.000012,0.000382,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/format.py:762
+<method 'format' of 'str' objects>,298,298,0.000370,0.000370,0.000001,0.000001,~:0
+_compile,76,5,0.000155,0.000365,0.000002,0.000005,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:37
+_array_str_implementation,3,3,0.000029,0.000356,0.000010,0.000119,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:1685
+_check_level,6,6,0.000054,0.000340,0.000009,0.000057,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multilevel.py:31
+load,4,4,0.000166,0.000334,0.000042,0.000083,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:885
+array2string,3,3,0.000021,0.000326,0.000007,0.000109,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:605
+APP,14,14,0.000063,0.000323,0.000004,0.000023,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:67
+glob,1,1,0.000006,0.000316,0.000006,0.000316,/opt/miniconda3/envs/FastEnv/lib/python3.12/glob.py:13
+<module>,1,1,0.000019,0.000314,0.000019,0.000314,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:1
+_iglob,3,3,0.000008,0.000309,0.000003,0.000103,/opt/miniconda3/envs/FastEnv/lib/python3.12/glob.py:60
+<module>,1,1,0.000011,0.000299,0.000011,0.000299,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:1
+__new__,3,3,0.000050,0.000296,0.000017,0.000099,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:528
+<built-in method builtins.issubclass>,1313,1313,0.000291,0.000291,0.000000,0.000000,~:0
+<method 'startswith' of 'str' objects>,697,697,0.000291,0.000291,0.000000,0.000000,~:0
+<built-in method builtins.len>,2696,2611,0.000274,0.000286,0.000000,0.000000,~:0
+<built-in method __new__ of type object at 0x1031ff320>,44,36,0.000137,0.000286,0.000003,0.000006,~:0
+_glob1,1,1,0.000003,0.000281,0.000003,0.000281,/opt/miniconda3/envs/FastEnv/lib/python3.12/glob.py:105
+<built-in method _io.open>,5,5,0.000281,0.000281,0.000056,0.000056,~:0
+_check_axes,296,296,0.000280,0.000280,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/ndimage/_ni_support.py:110
+wrapper,3,3,0.000011,0.000280,0.000004,0.000093,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:550
+view_as_blocks,2,2,0.000123,0.000278,0.000062,0.000139,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/skimage/util/shape.py:8
+argsreduce,9,9,0.000056,0.000276,0.000006,0.000031,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/stats/_distn_infrastructure.py:600
+<built-in method numpy.fromfile>,1,1,0.000265,0.000274,0.000265,0.000274,~:0
+_array2string,3,3,0.000016,0.000266,0.000005,0.000089,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:567
+_safe_read,54,54,0.000021,0.000265,0.000000,0.000005,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:598
+_path_stat,57,57,0.000011,0.000264,0.000000,0.000005,<frozen importlib._bootstrap_external>:140
+<built-in method posix.stat>,58,58,0.000259,0.000259,0.000004,0.000004,~:0
+namedtuple,4,4,0.000117,0.000256,0.000029,0.000064,/opt/miniconda3/envs/FastEnv/lib/python3.12/collections/__init__.py:355
+_sanity_check,592,592,0.000182,0.000251,0.000000,0.000000,<frozen importlib._bootstrap>:1285
+_count_reduce_items,46,46,0.000208,0.000240,0.000005,0.000005,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_methods.py:76
+_type_check,18,18,0.000033,0.000236,0.000002,0.000013,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:175
+filter,1,1,0.000006,0.000234,0.000006,0.000234,/opt/miniconda3/envs/FastEnv/lib/python3.12/fnmatch.py:48
+_compile_pattern,1,1,0.000008,0.000223,0.000008,0.000223,/opt/miniconda3/envs/FastEnv/lib/python3.12/fnmatch.py:38
+<built-in method builtins.iter>,600,600,0.000214,0.000214,0.000000,0.000000,~:0
+<built-in method numpy.asanyarray>,163,163,0.000210,0.000210,0.000001,0.000001,~:0
+get,906,906,0.000117,0.000196,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:261
+_type_convert,21,21,0.000013,0.000191,0.000001,0.000009,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:166
+__enter__,19,19,0.000012,0.000187,0.000001,0.000010,<frozen importlib._bootstrap>:416
+__getitem__,8,8,0.000013,0.000185,0.000002,0.000023,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:4173
+<built-in method builtins.compile>,15,15,0.000185,0.000185,0.000012,0.000012,~:0
+_modes_per_axis,48,48,0.000164,0.000184,0.000003,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_utils.py:72
+_init_module_attrs,19,19,0.000036,0.000181,0.000002,0.000010,<frozen importlib._bootstrap>:733
+__init__,14,14,0.000009,0.000176,0.000001,0.000013,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:892
+_cook_nd_args,4,4,0.000069,0.000170,0.000017,0.000042,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/fft/_pocketfft.py:698
+_get_format_function,3,3,0.000020,0.000168,0.000007,0.000056,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:496
+_extend_mode_to_code,592,592,0.000165,0.000165,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/ndimage/_ni_support.py:37
+cache_from_source,36,36,0.000049,0.000161,0.000001,0.000004,<frozen importlib._bootstrap_external>:482
+<method 'sort' of 'numpy.ndarray' objects>,48,48,0.000153,0.000153,0.000003,0.000003,~:0
+__getitem__,8,8,0.000013,0.000151,0.000002,0.000019,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:659
+__set_name__,8,8,0.000101,0.000137,0.000013,0.000017,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:254
+<lambda>,1,1,0.000008,0.000136,0.000008,0.000136,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:455
+acquire,19,19,0.000040,0.000129,0.000002,0.000007,<frozen importlib._bootstrap>:304
+<built-in method builtins.max>,89,89,0.000067,0.000129,0.000001,0.000001,~:0
+__init__,1,1,0.000006,0.000128,0.000006,0.000128,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:961
+fillFormat,1,1,0.000044,0.000122,0.000044,0.000122,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:987
+cached,37,37,0.000009,0.000119,0.000000,0.000003,<frozen importlib._bootstrap>:632
+__new__,5,5,0.000005,0.000117,0.000001,0.000023,<frozen abc>:105
+normalize_axis_index,592,592,0.000117,0.000117,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/_lib/_util.py:1050
+<built-in method builtins.eval>,4,4,0.000115,0.000115,0.000029,0.000029,~:0
+_path_join,114,114,0.000066,0.000115,0.000001,0.000001,<frozen importlib._bootstrap_external>:126
+__getitem__,469,469,0.000078,0.000114,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:168
+_path_isfile,19,19,0.000008,0.000112,0.000000,0.000006,<frozen importlib._bootstrap_external>:159
+<method 'flatten' of 'numpy.ndarray' objects>,48,48,0.000112,0.000112,0.000002,0.000002,~:0
+_get_cached,19,19,0.000014,0.000110,0.000001,0.000006,<frozen importlib._bootstrap_external>:611
+inner,6,6,0.000025,0.000110,0.000004,0.000018,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:392
+_wrapreduction_any_all,12,12,0.000021,0.000105,0.000002,0.000009,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:89
+_path_is_mode_type,19,19,0.000007,0.000104,0.000000,0.000005,<frozen importlib._bootstrap_external>:150
+all,9,9,0.000012,0.000102,0.000001,0.000011,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:2589
+_kind_name,296,296,0.000100,0.000100,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_dtype.py:24
+__next,1111,1111,0.000099,0.000099,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:240
+_compile_info,5,5,0.000045,0.000098,0.000009,0.000020,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:511
+take,4,4,0.000009,0.000097,0.000002,0.000024,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:109
+__instancecheck__,33,33,0.000011,0.000092,0.000000,0.000003,<frozen abc>:117
+ImageFileDirectory_v2,1,1,0.000055,0.000090,0.000055,0.000090,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:519
+broadcast_arrays,3,3,0.000014,0.000086,0.000005,0.000029,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_stride_tricks_impl.py:481
+as_strided,2,2,0.000072,0.000085,0.000036,0.000042,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_stride_tricks_impl.py:37
+<module>,1,1,0.000017,0.000084,0.000017,0.000084,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageColor.py:1
+_formatArray,3,3,0.000010,0.000081,0.000003,0.000027,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:828
+<built-in method _abc._abc_instancecheck>,33,33,0.000041,0.000081,0.000001,0.000002,~:0
+getwidth,91,24,0.000056,0.000081,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:178
+<method 'items' of 'dict' objects>,256,256,0.000077,0.000077,0.000000,0.000000,~:0
+_conv_type_shape,4,4,0.000054,0.000076,0.000014,0.000019,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:250
+__setitem__,18,18,0.000036,0.000075,0.000002,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:390
+_optimize_charset,32,32,0.000044,0.000074,0.000001,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:243
+isscalar,12,12,0.000025,0.000073,0.000002,0.000006,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/numeric.py:1927
+recurser,8,3,0.000025,0.000071,0.000003,0.000009,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:837
+DQT,4,4,0.000065,0.000071,0.000016,0.000018,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:232
+path_stats,18,18,0.000006,0.000069,0.000000,0.000004,<frozen importlib._bootstrap_external>:1202
+__setitem__,8,8,0.000010,0.000068,0.000001,0.000009,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:673
+lru_cache,3,3,0.000056,0.000067,0.000019,0.000022,/opt/miniconda3/envs/FastEnv/lib/python3.12/functools.py:477
+_read_array_header,1,1,0.000013,0.000064,0.000013,0.000064,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/format.py:604
+_get_spec,19,19,0.000017,0.000064,0.000001,0.000003,<frozen importlib._bootstrap_external>:1588
+<built-in method numpy.empty>,51,51,0.000064,0.000064,0.000001,0.000001,~:0
+_wrapit,4,4,0.000036,0.000062,0.000009,0.000015,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:41
+<module>,1,1,0.000008,0.000062,0.000008,0.000062,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageOps.py:1
+<method 'all' of 'numpy.generic' objects>,9,9,0.000033,0.000061,0.000004,0.000007,~:0
+__enter__,19,19,0.000012,0.000060,0.000001,0.000003,<frozen importlib._bootstrap>:162
+<built-in method builtins.any>,28,28,0.000017,0.000059,0.000001,0.000002,~:0
+load_rational,4,4,0.000012,0.000058,0.000003,0.000015,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:828
+_setitem,8,8,0.000024,0.000058,0.000003,0.000007,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:676
+<method 'join' of 'str' objects>,232,232,0.000055,0.000058,0.000000,0.000000,~:0
+_dib_accept,4,4,0.000016,0.000057,0.000004,0.000014,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/BmpImagePlugin.py:56
+_broadcast_to,3,3,0.000050,0.000056,0.000017,0.000019,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_stride_tricks_impl.py:340
+_path_split,36,36,0.000022,0.000056,0.000001,0.000002,<frozen importlib._bootstrap_external>:132
+<built-in method builtins.all>,25,25,0.000017,0.000052,0.000001,0.000002,~:0
+__prepare__,3,3,0.000012,0.000052,0.000004,0.000017,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:513
+closegroup,19,19,0.000005,0.000052,0.000000,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:98
+lookup,48,48,0.000015,0.000051,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffTags.py:52
+<module>,1,1,0.000009,0.000051,0.000009,0.000051,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PpmImagePlugin.py:1
+_unpack,82,82,0.000026,0.000049,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:778
+<genexpr>,3,3,0.000009,0.000047,0.000003,0.000016,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:1016
+__getitem__,1,1,0.000001,0.000046,0.000001,0.000046,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:515
+__exit__,19,19,0.000007,0.000046,0.000000,0.000002,<frozen importlib._bootstrap>:420
+_get_module_lock,19,19,0.000028,0.000046,0.000001,0.000002,<frozen importlib._bootstrap>:426
+setdefault,19,19,0.000019,0.000045,0.000001,0.000002,<frozen importlib._bootstrap>:124
+spec_from_file_location,19,19,0.000026,0.000045,0.000001,0.000002,<frozen importlib._bootstrap_external>:802
+is_path,8,8,0.000020,0.000045,0.000002,0.000006,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/_util.py:9
+<genexpr>,96,96,0.000034,0.000045,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multilevel.py:323
+Union,1,1,0.000007,0.000045,0.000007,0.000045,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:694
+_getencoder,4,4,0.000025,0.000045,0.000006,0.000011,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:445
+<genexpr>,8,8,0.000003,0.000045,0.000000,0.000006,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:837
+<method 'pop' of 'dict' objects>,128,128,0.000045,0.000045,0.000000,0.000000,~:0
+_listdir,1,1,0.000006,0.000044,0.000006,0.000044,/opt/miniconda3/envs/FastEnv/lib/python3.12/glob.py:176
+parent,90,90,0.000024,0.000043,0.000000,0.000000,<frozen importlib._bootstrap>:645
+__getitem__,1,1,0.000002,0.000043,0.000002,0.000043,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1546
+<genexpr>,96,96,0.000020,0.000042,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multidim.py:276
+<built-in method builtins.next>,53,53,0.000014,0.000042,0.000000,0.000001,~:0
+combine,4,4,0.000005,0.000042,0.000001,0.000010,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:834
+<built-in method _struct.unpack_from>,102,102,0.000041,0.000041,0.000000,0.000000,~:0
+i32le,4,4,0.000013,0.000041,0.000003,0.000010,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/_binary.py:60
+__subclasscheck__,19,5,0.000004,0.000040,0.000000,0.000002,<frozen abc>:121
+<method 'any' of 'numpy.ndarray' objects>,2,2,0.000012,0.000040,0.000006,0.000020,~:0
+literal_eval,1,1,0.000006,0.000040,0.000006,0.000040,/opt/miniconda3/envs/FastEnv/lib/python3.12/ast.py:56
+<built-in method builtins.hasattr>,145,145,0.000038,0.000039,0.000000,0.000000,~:0
+release,19,19,0.000025,0.000039,0.000001,0.000002,<frozen importlib._bootstrap>:372
+<built-in method _abc._abc_subclasscheck>,19,5,0.000034,0.000039,0.000002,0.000002,~:0
+__getitem_inner__,1,1,0.000003,0.000039,0.000003,0.000039,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1560
+<built-in method builtins.setattr>,86,86,0.000028,0.000038,0.000000,0.000000,~:0
+<genexpr>,3,3,0.000004,0.000037,0.000001,0.000012,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:1013
+__new__,1,1,0.000005,0.000037,0.000005,0.000037,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1850
+__and__,10,10,0.000014,0.000037,0.000001,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:1562
+__init__,4,4,0.000015,0.000037,0.000004,0.000009,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:348
+__init__,2,2,0.000008,0.000036,0.000004,0.000018,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1269
+<method 'rpartition' of 'str' objects>,183,183,0.000036,0.000036,0.000000,0.000000,~:0
+_iterdir,3,3,0.000011,0.000036,0.000004,0.000012,/opt/miniconda3/envs/FastEnv/lib/python3.12/glob.py:142
+_getdecoder,4,4,0.000010,0.000036,0.000003,0.000009,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:420
+<built-in method numpy._core._multiarray_umath.dragon4_scientific>,4,4,0.000035,0.000035,0.000009,0.000009,~:0
+_ppf,3,3,0.000006,0.000035,0.000002,0.000012,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/stats/_continuous_distns.py:440
+<method 'close' of '_io.BufferedReader' objects>,4,4,0.000035,0.000035,0.000009,0.000009,~:0
+<genexpr>,72,72,0.000022,0.000034,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multilevel.py:331
+<method '__exit__' of '_io._IOBase' objects>,18,18,0.000034,0.000034,0.000002,0.000002,~:0
+<genexpr>,72,72,0.000034,0.000034,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multilevel.py:333
+_any,5,5,0.000002,0.000033,0.000000,0.000007,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_methods.py:58
+<module>,1,1,0.000005,0.000033,0.000005,0.000033,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/GimpGradientFile.py:1
+__len__,172,172,0.000023,0.000033,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:164
+match,220,220,0.000025,0.000032,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:256
+getLogger,2,2,0.000003,0.000031,0.000002,0.000016,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:2149
+_unpack_uint32,54,54,0.000020,0.000031,0.000000,0.000001,<frozen importlib._bootstrap_external>:84
+<genexpr>,120,120,0.000026,0.000031,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multidim.py:270
+_simple,37,37,0.000011,0.000031,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:398
+<genexpr>,96,96,0.000031,0.000031,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multilevel.py:325
+_validate_timestamp_pyc,18,18,0.000012,0.000030,0.000001,0.000002,<frozen importlib._bootstrap_external>:699
+SOF,4,4,0.000021,0.000030,0.000005,0.000007,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:184
+_classify_pyc,18,18,0.000014,0.000030,0.000001,0.000002,<frozen importlib._bootstrap_external>:666
+<method 'rstrip' of 'str' objects>,269,269,0.000030,0.000030,0.000000,0.000000,~:0
+reshape,2,2,0.000009,0.000029,0.000004,0.000015,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:211
+_norm_ppf,3,3,0.000029,0.000029,0.000010,0.000010,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/stats/_continuous_distns.py:376
+LoadingStrategy,1,1,0.000002,0.000028,0.000002,0.000028,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/GifImagePlugin.py:54
+_all,9,9,0.000003,0.000028,0.000000,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_methods.py:67
+<built-in method _abc._abc_init>,5,5,0.000028,0.000028,0.000006,0.000006,~:0
+getLogger,2,2,0.000011,0.000028,0.000005,0.000014,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:1377
+<method 'extend' of 'list' objects>,77,77,0.000028,0.000028,0.000000,0.000000,~:0
+getuntil,15,15,0.000016,0.000027,0.000001,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:274
+i16be,86,86,0.000015,0.000026,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/_binary.py:90
+append,93,93,0.000017,0.000026,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:176
+atleast_1d,9,9,0.000013,0.000025,0.000001,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/shape_base.py:21
+debug,40,40,0.000014,0.000025,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:1517
+_compile_charset,32,32,0.000017,0.000024,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:216
+tell,109,109,0.000017,0.000024,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:293
+opengroup,19,19,0.000013,0.000024,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:86
+<built-in method builtins.min>,155,155,0.000024,0.000024,0.000000,0.000000,~:0
+__init__,4,4,0.000015,0.000024,0.000004,0.000006,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:583
+<built-in method posix.scandir>,1,1,0.000024,0.000024,0.000024,0.000024,~:0
+<built-in method _struct.unpack>,83,83,0.000024,0.000024,0.000000,0.000000,~:0
+__eq__,104,104,0.000013,0.000024,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:962
+<method 'disable' of '_lsprof.Profiler' objects>,1,1,0.000023,0.000023,0.000023,0.000023,~:0
+<genexpr>,120,120,0.000017,0.000023,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/pywt/_multidim.py:267
+_make_options_dict,3,3,0.000010,0.000023,0.000003,0.000008,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:50
+Skip,10,10,0.000006,0.000022,0.000001,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:62
+_register_basic,9,9,0.000016,0.000022,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:495
+_ensure_read,48,48,0.000013,0.000022,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:875
+Disposal,1,1,0.000002,0.000022,0.000002,0.000022,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PngImagePlugin.py:104
+parse,1,1,0.000001,0.000022,0.000001,0.000022,/opt/miniconda3/envs/FastEnv/lib/python3.12/ast.py:34
+load,8,8,0.000014,0.000022,0.000002,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:882
+<built-in method math.isnan>,4,4,0.000015,0.000021,0.000004,0.000005,~:0
+<method 'reshape' of 'numpy.ndarray' objects>,19,19,0.000020,0.000020,0.000001,0.000001,~:0
+<built-in method PIL._imaging.jpeg_decoder>,4,4,0.000019,0.000019,0.000005,0.000005,~:0
+__exit__,76,76,0.000012,0.000019,0.000000,0.000000,<frozen importlib._bootstrap>:1226
+_get_mixins_,6,6,0.000006,0.000019,0.000001,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:967
+<method 'seek' of '_io.BufferedReader' objects>,13,13,0.000019,0.000019,0.000001,0.000001,~:0
+<genexpr>,120,120,0.000013,0.000018,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:275
+<genexpr>,72,72,0.000011,0.000018,0.000000,0.000000,<frozen importlib._bootstrap_external>:134
+repr_format,3,3,0.000004,0.000018,0.000001,0.000006,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:436
+__enter__,76,76,0.000012,0.000018,0.000000,0.000000,<frozen importlib._bootstrap>:1222
+<built-in method builtins.delattr>,23,23,0.000006,0.000018,0.000000,0.000001,~:0
+cb,19,19,0.000011,0.000018,0.000001,0.000001,<frozen importlib._bootstrap>:445
+__new__,19,19,0.000013,0.000017,0.000001,0.000001,<frozen importlib._bootstrap>:74
+__setattr__,13,13,0.000009,0.000017,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1215
+<built-in method numpy.lib.array_utils.normalize_axis_index>,68,68,0.000017,0.000017,0.000000,0.000000,~:0
+any,3,3,0.000002,0.000017,0.000001,0.000006,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:2477
+copy_with,1,1,0.000002,0.000017,0.000002,0.000017,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1542
+_unpack_tuple,48,48,0.000012,0.000017,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py:132
+<method 'take' of 'numpy.ndarray' objects>,4,4,0.000017,0.000017,0.000004,0.000004,~:0
+<genexpr>,4,4,0.000001,0.000016,0.000000,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1569
+_verbose_message,135,135,0.000016,0.000016,0.000000,0.000000,<frozen importlib._bootstrap>:491
+_get_value,36,36,0.000011,0.000016,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:1544
+_escape,28,28,0.000010,0.000016,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:372
+Fraction,1,1,0.000010,0.000016,0.000010,0.000016,/opt/miniconda3/envs/FastEnv/lib/python3.12/fractions.py:162
+<method 'sum' of 'numpy.ndarray' objects>,2,2,0.000009,0.000016,0.000004,0.000008,~:0
+place,9,9,0.000007,0.000015,0.000001,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:2047
+find_spec,19,19,0.000006,0.000015,0.000000,0.000001,<frozen importlib._bootstrap>:1128
+Blend,1,1,0.000001,0.000014,0.000001,0.000014,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PngImagePlugin.py:125
+translate,1,1,0.000008,0.000014,0.000008,0.000014,/opt/miniconda3/envs/FastEnv/lib/python3.12/fnmatch.py:74
+__init__,19,19,0.000010,0.000014,0.000001,0.000001,<frozen importlib._bootstrap>:232
+__init_subclass__,1,1,0.000007,0.000014,0.000007,0.000014,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1994
+getmode,1,1,0.000011,0.000014,0.000011,0.000014,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageMode.py:37
+__init__,2,2,0.000003,0.000014,0.000001,0.000007,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1174
+<built-in method PIL._imaging.raw_encoder>,4,4,0.000014,0.000014,0.000003,0.000003,~:0
+update_wrapper,3,3,0.000007,0.000014,0.000002,0.000005,/opt/miniconda3/envs/FastEnv/lib/python3.12/functools.py:35
+find_spec,19,19,0.000008,0.000014,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/_distutils_hack/__init__.py:101
+_min_dispatcher,81,81,0.000014,0.000014,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3185
+_path_abspath,19,19,0.000005,0.000013,0.000000,0.000001,<frozen importlib._bootstrap_external>:185
+full,3,3,0.000009,0.000013,0.000003,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/numeric.py:290
+<built-in method builtins.locals>,4,4,0.000013,0.000013,0.000003,0.000003,~:0
+IFDRational,1,1,0.000007,0.000012,0.000007,0.000012,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:334
+_find_data_type_,6,6,0.000009,0.000012,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:1008
+_extendLine_pretty,5,5,0.000005,0.000012,0.000001,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:801
+_is_private,18,18,0.000008,0.000012,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:79
+<method 'item' of 'numpy.generic' objects>,3,3,0.000012,0.000012,0.000004,0.000004,~:0
+__setattr__,14,14,0.000010,0.000012,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:850
+__delattr__,23,23,0.000012,0.000012,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:785
+__call__,2,2,0.000011,0.000012,0.000005,0.000006,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:1073
+_broadcast_shape,3,3,0.000012,0.000012,0.000004,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_stride_tricks_impl.py:413
+_getmp,4,4,0.000005,0.000012,0.000001,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:527
+im,12,12,0.000006,0.000012,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:560
+remove,19,19,0.000008,0.000011,0.000000,0.000001,<frozen importlib._bootstrap>:82
+find_spec,19,19,0.000005,0.000011,0.000000,0.000001,<frozen importlib._bootstrap>:982
+_check_name_wrapper,18,18,0.000010,0.000011,0.000001,0.000001,<frozen importlib._bootstrap_external>:643
+<built-in method _imp.release_lock>,114,114,0.000011,0.000011,0.000000,0.000000,~:0
+<module>,1,1,0.000002,0.000011,0.000002,0.000011,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageSequence.py:1
+__enter__,1,1,0.000003,0.000011,0.000003,0.000011,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_ufunc_config.py:440
+<method 'find' of 'bytearray' objects>,66,66,0.000011,0.000011,0.000000,0.000000,~:0
+register_extensions,4,4,0.000003,0.000011,0.000001,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3717
+_convert,9,1,0.000009,0.000011,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/ast.py:86
+__call__,12,12,0.000007,0.000011,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:726
+register_extension,16,16,0.000007,0.000011,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3706
+isEnabledFor,40,40,0.000008,0.000011,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:1790
+_fixup,8,8,0.000006,0.000011,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3912
+_get_formatdict,3,3,0.000010,0.000010,0.000003,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:446
+decorator,5,5,0.000006,0.000010,0.000001,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:476
+<built-in method _imp.acquire_lock>,114,114,0.000010,0.000010,0.000000,0.000000,~:0
+basic_handler,4,4,0.000003,0.000010,0.000001,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:502
+__getattr__,12,12,0.000010,0.000010,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:395
+_find_new_,3,3,0.000008,0.000010,0.000003,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:1035
+groups,48,48,0.000007,0.000010,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:83
+register_open,7,7,0.000007,0.000010,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3641
+<module>,1,1,0.000002,0.000010,0.000002,0.000010,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/GimpPaletteFile.py:1
+__init__,1,1,0.000002,0.000010,0.000002,0.000010,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1869
+__init__,19,19,0.000010,0.000010,0.000000,0.000000,<frozen importlib._bootstrap>:79
+<method 'read' of '_io.BytesIO' objects>,74,74,0.000009,0.000009,0.000000,0.000000,~:0
+<method 'rfind' of 'str' objects>,41,41,0.000009,0.000009,0.000000,0.000000,~:0
+has_magic,3,3,0.000003,0.000009,0.000001,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/glob.py:223
+_path_isabs,19,19,0.000005,0.000009,0.000000,0.000000,<frozen importlib._bootstrap_external>:180
+<method 'setimage' of 'ImagingDecoder' objects>,4,4,0.000009,0.000009,0.000002,0.000002,~:0
+<genexpr>,5,5,0.000002,0.000009,0.000000,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:730
+<module>,1,1,0.000002,0.000009,0.000002,0.000009,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PaletteFile.py:1
+__exit__,19,19,0.000006,0.000009,0.000000,0.000000,<frozen importlib._bootstrap>:173
+<built-in method builtins.repr>,41,41,0.000009,0.000009,0.000000,0.000000,~:0
+<built-in method numpy._core._multiarray_umath._place>,9,9,0.000009,0.000009,0.000001,0.000001,~:0
+_fixupParents,2,2,0.000005,0.000009,0.000003,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:1428
+_get_literal_prefix,5,4,0.000008,0.000009,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:436
+__init__,82,82,0.000009,0.000009,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:113
+__delitem__,8,8,0.000005,0.000008,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:770
+<method 'upper' of 'str' objects>,56,56,0.000008,0.000008,0.000000,0.000000,~:0
+<method 'startswith' of 'bytes' objects>,9,9,0.000008,0.000008,0.000001,0.000001,~:0
+_remove_dups_flatten,1,1,0.000006,0.000008,0.000006,0.000008,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:345
+_check_for_existing_members_,3,3,0.000007,0.000008,0.000002,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:957
+<method 'update' of 'dict' objects>,9,9,0.000008,0.000008,0.000001,0.000001,~:0
+_uniq,11,11,0.000005,0.000008,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:449
+_is_dunder,13,13,0.000004,0.000008,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1161
+_mk_bitmap,2,2,0.000007,0.000008,0.000003,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:386
+<method 'any' of 'numpy.generic' objects>,3,3,0.000003,0.000008,0.000001,0.000003,~:0
+<method 'get' of 'mappingproxy' objects>,55,55,0.000008,0.000008,0.000000,0.000000,~:0
+<method 'sort' of 'list' objects>,6,6,0.000006,0.000008,0.000001,0.000001,~:0
+__new__,4,4,0.000006,0.000008,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/fractions.py:186
+_new_module,18,18,0.000007,0.000007,0.000000,0.000000,<frozen importlib._bootstrap>:48
+_get_protocol_attrs,1,1,0.000005,0.000007,0.000005,0.000007,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1749
+<method 'set' of '_contextvars.ContextVar' objects>,1,1,0.000007,0.000007,0.000007,0.000007,~:0
+exists,1,1,0.000002,0.000007,0.000002,0.000007,<frozen genericpath>:16
+_sum,2,2,0.000001,0.000007,0.000000,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_methods.py:50
+<built-in method posix.fspath>,64,64,0.000007,0.000007,0.000000,0.000000,~:0
+max,1,1,0.000001,0.000007,0.000001,0.000007,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3052
+_is_sunder,18,18,0.000006,0.000007,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:59
+__or__,2,2,0.000003,0.000007,0.000001,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:1551
+<built-in method from_bytes>,54,54,0.000007,0.000007,0.000000,0.000000,~:0
+_getmp,4,4,0.000007,0.000007,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:537
+_decompression_bomb_check,4,4,0.000003,0.000007,0.000001,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3388
+<method 'setimage' of 'ImagingEncoder' objects>,4,4,0.000007,0.000007,0.000002,0.000002,~:0
+<method 'endswith' of 'str' objects>,31,31,0.000007,0.000007,0.000000,0.000000,~:0
+enter_context,1,1,0.000003,0.000006,0.000003,0.000006,/opt/miniconda3/envs/FastEnv/lib/python3.12/contextlib.py:511
+_get_support,3,3,0.000006,0.000006,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/stats/_distn_infrastructure.py:997
+__init__,5,5,0.000004,0.000006,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:231
+decorating_function,1,1,0.000002,0.000006,0.000002,0.000006,/opt/miniconda3/envs/FastEnv/lib/python3.12/functools.py:516
+<method '__exit__' of '_thread.RLock' objects>,38,38,0.000006,0.000006,0.000000,0.000000,~:0
+_is_dunder,15,15,0.000005,0.000006,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:48
+_collect_parameters,2,2,0.000002,0.000006,0.000001,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:262
+<built-in method _imp.is_builtin>,19,19,0.000006,0.000006,0.000000,0.000000,~:0
+__contains__,4,4,0.000005,0.000006,0.000001,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:4179
+real,2,2,0.000006,0.000006,0.000003,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_type_check_impl.py:84
+__setitem__,38,38,0.000005,0.000006,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:172
+<method '__init_subclass__' of 'object' objects>,1,1,0.000004,0.000006,0.000004,0.000006,~:0
+join,2,2,0.000004,0.000006,0.000002,0.000003,<frozen posixpath>:71
+<method 'search' of 're.Pattern' objects>,3,3,0.000006,0.000006,0.000002,0.000002,~:0
+__float__,4,4,0.000005,0.000006,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/numbers.py:308
+_extendLine,5,5,0.000004,0.000006,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:787
+<method 'pop' of 'list' objects>,37,37,0.000006,0.000006,0.000000,0.000000,~:0
+<method 'seek' of '_io.BytesIO' objects>,48,48,0.000006,0.000006,0.000000,0.000000,~:0
+__exit__,1,1,0.000005,0.000005,0.000005,0.000005,/opt/miniconda3/envs/FastEnv/lib/python3.12/contextlib.py:567
+_operator_fallbacks,7,7,0.000005,0.000005,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/fractions.py:533
+_unique_dispatcher,48,48,0.000005,0.000005,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py:140
+_read_bytes,3,3,0.000004,0.000005,0.000001,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/format.py:971
+checkgroupname,15,15,0.000003,0.000005,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:304
+BmpImageFile,1,1,0.000004,0.000005,0.000004,0.000005,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/BmpImagePlugin.py:63
+<built-in method _sre.compile>,5,5,0.000005,0.000005,0.000001,0.000001,~:0
+_is_descriptor,8,8,0.000003,0.000005,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:38
+_delegate,27,27,0.000005,0.000005,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:325
+<built-in method _thread.get_ident>,41,41,0.000005,0.000005,0.000000,0.000000,~:0
+_is_internal_class,18,18,0.000003,0.000005,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:70
+<method 'isidentifier' of 'str' objects>,32,32,0.000005,0.000005,0.000000,0.000000,~:0
+<lambda>,4,4,0.000002,0.000005,0.000001,0.000001,<string>:1
+mode,40,40,0.000005,0.000005,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:583
+<built-in method builtins.ord>,51,51,0.000005,0.000005,0.000000,0.000000,~:0
+width,8,8,0.000004,0.000005,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:571
+read_magic,1,1,0.000002,0.000005,0.000002,0.000005,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/format.py:225
+height,8,8,0.000004,0.000005,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:575
+split,1,1,0.000003,0.000005,0.000003,0.000005,<frozen posixpath>:100
+isfileobj,1,1,0.000004,0.000005,0.000004,0.000005,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/format.py:999
+<built-in method _struct.calcsize>,10,10,0.000004,0.000004,0.000000,0.000000,~:0
+<method 'split' of 'bytes' objects>,4,4,0.000004,0.000004,0.000001,0.000001,~:0
+<method 'as_arrays' of 'numpy._core._multiarray_umath._array_converter' objects>,4,4,0.000004,0.000004,0.000001,0.000001,~:0
+ImagePalette,1,1,0.000004,0.000004,0.000004,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImagePalette.py:30
+_Operand,1,1,0.000004,0.000004,0.000004,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageMath.py:27
+<method 'add' of 'set' objects>,29,29,0.000004,0.000004,0.000000,0.000000,~:0
+_relax_case,20,20,0.000004,0.000004,0.000000,0.000000,<frozen importlib._bootstrap_external>:67
+<genexpr>,16,16,0.000003,0.000004,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:732
+<module>,1,1,0.000003,0.000004,0.000003,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageChops.py:1
+<built-in method _imp.find_frozen>,19,19,0.000004,0.000004,0.000000,0.000000,~:0
+escape,4,4,0.000002,0.000004,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/__init__.py:255
+__init__,19,19,0.000004,0.000004,0.000000,0.000000,<frozen importlib._bootstrap>:599
+AppendingTiffWriter,1,1,0.000004,0.000004,0.000004,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:1993
+__init__,3,3,0.000004,0.000004,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:383
+__init__,2,2,0.000003,0.000004,0.000001,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:1497
+<built-in method fromkeys>,12,12,0.000004,0.000004,0.000000,0.000000,~:0
+<built-in method _thread.allocate_lock>,19,19,0.000004,0.000004,0.000000,0.000000,~:0
+__new__,12,12,0.000004,0.000004,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:1129
+i32be,12,12,0.000002,0.000004,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/_binary.py:94
+size,40,40,0.000004,0.000004,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:579
+<built-in method sys.intern>,17,17,0.000004,0.000004,0.000000,0.000000,~:0
+<built-in method _weakref._remove_dead_weakref>,19,19,0.000004,0.000004,0.000000,0.000000,~:0
+_path_importer_cache,21,21,0.000004,0.000004,0.000000,0.000000,<frozen importlib._bootstrap_external>:1469
+GifImageFile,1,1,0.000003,0.000004,0.000003,0.000004,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/GifImagePlugin.py:78
+<method 'tell' of '_io.BufferedReader' objects>,4,4,0.000003,0.000003,0.000001,0.000001,~:0
+<built-in method _imp._fix_co_filename>,18,18,0.000003,0.000003,0.000000,0.000000,~:0
+<method 'replace' of 'str' objects>,19,19,0.000003,0.000003,0.000000,0.000000,~:0
+_accept,4,4,0.000003,0.000003,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/BmpImagePlugin.py:52
+_acquireLock,3,3,0.000002,0.000003,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:234
+reset,8,8,0.000003,0.000003,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:634
+<method 'tell' of '_io.BytesIO' objects>,26,26,0.000003,0.000003,0.000000,0.000000,~:0
+_push_cm_exit,1,1,0.000001,0.000003,0.000001,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/contextlib.py:543
+isstring,10,10,0.000002,0.000003,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:570
+_combine_flags,22,22,0.000003,0.000003,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:31
+__init__,2,2,0.000003,0.000003,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_stride_tricks_impl.py:19
+<genexpr>,17,17,0.000003,0.000003,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/collections/__init__.py:429
+_get_charset_prefix,4,4,0.000002,0.000003,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:467
+<method 'setdefault' of 'dict' objects>,13,13,0.000003,0.000003,0.000000,0.000000,~:0
+<module>,1,1,0.000003,0.000003,0.000003,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegPresets.py:1
+register_save,7,7,0.000002,0.000003,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3679
+descr_to_dtype,1,1,0.000003,0.000003,0.000003,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/format.py:303
+<method 'remove' of 'list' objects>,19,19,0.000003,0.000003,0.000000,0.000000,~:0
+JpegImageFile,1,1,0.000003,0.000003,0.000003,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:335
+<method 'match' of 're.Pattern' objects>,2,2,0.000003,0.000003,0.000001,0.000001,~:0
+__subclasshook__,1,1,0.000001,0.000003,0.000001,0.000003,<frozen os>:1116
+__init__,4,4,0.000003,0.000003,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3905
+__init__,4,4,0.000003,0.000003,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:549
+<method 'reverse' of 'list' objects>,10,10,0.000003,0.000003,0.000000,0.000000,~:0
+_accept,8,8,0.000003,0.000003,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/JpegImagePlugin.py:326
+ImageFileDirectory_v1,1,1,0.000003,0.000003,0.000003,0.000003,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:1057
+<method 'lower' of 'str' objects>,16,16,0.000002,0.000002,0.000000,0.000000,~:0
+<method 'wrap' of 'numpy._core._multiarray_umath._array_converter' objects>,4,4,0.000002,0.000002,0.000001,0.000001,~:0
+register_mime,7,7,0.000002,0.000002,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3664
+_accept,4,4,0.000002,0.000002,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/GifImagePlugin.py:69
+_generic_init_subclass,1,1,0.000002,0.000002,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1123
+__init__,19,19,0.000002,0.000002,0.000000,0.000000,<frozen importlib._bootstrap>:412
+<genexpr>,3,3,0.000001,0.000002,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:1017
+__contains__,12,12,0.000002,0.000002,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:670
+fix_flags,5,5,0.000002,0.000002,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:953
+iglob,1,1,0.000002,0.000002,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/glob.py:31
+<method 'translate' of 'str' objects>,4,4,0.000002,0.000002,0.000001,0.000001,~:0
+<method 'ravel' of 'numpy.ndarray' objects>,9,9,0.000002,0.000002,0.000000,0.000000,~:0
+<method '__contains__' of 'frozenset' objects>,17,17,0.000002,0.000002,0.000000,0.000000,~:0
+exec_module,1,1,0.000001,0.000002,0.000001,0.000002,<frozen importlib._bootstrap_external>:1295
+_accept,4,4,0.000002,0.000002,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:290
+__exit__,1,1,0.000001,0.000002,0.000001,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_ufunc_config.py:456
+PngStream,1,1,0.000002,0.000002,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PngImagePlugin.py:379
+legacy_api,24,24,0.000002,0.000002,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:625
+_releaseLock,3,3,0.000001,0.000002,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:243
+_swap_direction,4,4,0.000002,0.000002,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/fft/_pocketfft.py:101
+_tilesort,4,4,0.000002,0.000002,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:93
+PngImageFile,1,1,0.000002,0.000002,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PngImagePlugin.py:750
+TiffImageFile,1,1,0.000002,0.000002,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:1156
+_find_data_repr_,3,3,0.000002,0.000002,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:986
+_maybe_view_as_subclass,5,5,0.000002,0.000002,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_stride_tricks_impl.py:24
+__init__,19,19,0.000002,0.000002,0.000000,0.000000,<frozen importlib._bootstrap>:158
+_deduplicate,1,1,0.000001,0.000002,0.000001,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:317
+_fft_dispatcher,8,8,0.000002,0.000002,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/fft/_pocketfft.py:109
+<built-in method _sre.unicode_iscased>,12,12,0.000002,0.000002,0.000000,0.000000,~:0
+__init__,18,18,0.000002,0.000002,0.000000,0.000000,<frozen importlib._bootstrap_external>:1153
+<genexpr>,3,3,0.000001,0.000002,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/glob.py:108
+<method 'clear' of 'dict' objects>,12,12,0.000002,0.000002,0.000000,0.000000,~:0
+register_save_all,3,3,0.000001,0.000002,0.000000,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3692
+has_location,19,19,0.000002,0.000002,0.000000,0.000000,<frozen importlib._bootstrap>:653
+iTXt,1,1,0.000002,0.000002,0.000002,0.000002,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PngImagePlugin.py:250
+get_filename,18,18,0.000002,0.000002,0.000000,0.000000,<frozen importlib._bootstrap_external>:1178
+_mean_dispatcher,6,6,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3730
+<method 'splitlines' of 'str' objects>,5,5,0.000001,0.000001,0.000000,0.000000,~:0
+<method 'pixel_access' of 'ImagingCore' objects>,4,4,0.000001,0.000001,0.000000,0.000000,~:0
+ImageFile,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:110
+<genexpr>,10,10,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1273
+_push_exit_callback,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/contextlib.py:548
+_fftn_dispatcher,4,4,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/fft/_pocketfft.py:745
+_check_methods,1,1,0.000001,0.000001,0.000001,0.000001,<frozen _collections_abc>:104
+_parse_flags,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:893
+__get__,2,2,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:202
+ChunkStream,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PngImagePlugin.py:156
+__exit__,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/contextlib.py:359
+_nonzero_dispatcher,2,2,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:2014
+result_type,16,16,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/multiarray.py:690
+_get_sep,3,3,0.000001,0.000001,0.000000,0.000000,<frozen posixpath>:41
+create_module,18,18,0.000001,0.000001,0.000000,0.000000,<frozen importlib._bootstrap_external>:986
+__init__,5,5,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_parser.py:77
+<genexpr>,8,8,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:2815
+shape,3,3,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:2118
+<built-in method numpy._core._multiarray_umath._make_extobj>,1,1,0.000001,0.000001,0.000001,0.000001,~:0
+<method 'split' of 'str' objects>,2,2,0.000001,0.000001,0.000001,0.000001,~:0
+size,6,6,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3566
+Parser,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:398
+__init__,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/contextlib.py:481
+_real_dispatcher,2,2,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_type_check_impl.py:80
+_place_dispatcher,9,9,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:2043
+append,2,2,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:1323
+PpmPlainDecoder,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PpmImagePlugin.py:163
+<genexpr>,6,6,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_stride_tricks_impl.py:345
+<method 'setter' of 'property' objects>,3,3,0.000001,0.000001,0.000000,0.000000,~:0
+getEffectiveLevel,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:1776
+StubHandler,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:359
+<method 'pop' of 'set' objects>,6,6,0.000001,0.000001,0.000000,0.000000,~:0
+<method 'acquire' of '_thread.RLock' objects>,3,3,0.000001,0.000001,0.000000,0.000000,~:0
+_all_dispatcher,9,9,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:2584
+_get_iscased,9,9,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/re/_compiler.py:428
+_checkLevel,2,2,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:208
+PyDecoder,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:722
+<lambda>,4,4,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:263
+<built-in method builtins.sorted>,1,1,0.000001,0.000001,0.000001,0.000001,~:0
+<method 'reset' of '_contextvars.ContextVar' objects>,1,1,0.000001,0.000001,0.000001,0.000001,~:0
+_ishidden,3,3,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/glob.py:230
+<method 'cleanup' of 'ImagingDecoder' objects>,4,4,0.000001,0.000001,0.000000,0.000000,~:0
+_argcheck,3,3,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/scipy/stats/_distn_infrastructure.py:985
+<built-in method builtins.id>,3,3,0.000001,0.000001,0.000000,0.000000,~:0
+<method 'get' of '_contextvars.ContextVar' objects>,6,6,0.000001,0.000001,0.000000,0.000000,~:0
+_atleast_1d_dispatcher,9,9,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/shape_base.py:17
+<genexpr>,3,3,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/format.py:670
+_Tile,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:98
+<built-in method _sre.unicode_tolower>,5,5,0.000001,0.000001,0.000000,0.000000,~:0
+<method 'translate' of 'bytearray' objects>,2,2,0.000001,0.000001,0.000000,0.000000,~:0
+<method 'copy' of 'dict' objects>,3,3,0.000001,0.000001,0.000000,0.000000,~:0
+<method 'discard' of 'set' objects>,3,3,0.000001,0.000001,0.000000,0.000000,~:0
+empty_like,8,8,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/multiarray.py:107
+<method 'partition' of 'str' objects>,2,2,0.000001,0.000001,0.000000,0.000000,~:0
+_namedtuple_mro_entries,4,4,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:2875
+PpmImageFile,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PpmImagePlugin.py:57
+<built-in method builtins.vars>,6,6,0.000001,0.000001,0.000000,0.000000,~:0
+__init__,8,8,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:1185
+__init__,8,8,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:251
+PyCodec,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:644
+PyEncoder,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:776
+PngInfo,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PngImagePlugin.py:277
+<genexpr>,3,3,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:1018
+<method '__exit__' of 'numpy.nditer' objects>,3,3,0.000001,0.000001,0.000000,0.000000,~:0
+_take_dispatcher,4,4,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:105
+_size_dispatcher,6,6,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3562
+_Frame,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/GifImagePlugin.py:643
+numerator,4,4,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:382
+Iterator,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageSequence.py:24
+_register_loader,5,5,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:475
+decorator,5,5,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:488
+<method 'release' of '_thread.RLock' objects>,3,3,0.000001,0.000001,0.000000,0.000000,~:0
+<genexpr>,3,3,0.000000,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:1021
+<genexpr>,3,3,0.000000,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:1030
+<genexpr>,2,2,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:1999
+_std_dispatcher,4,4,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3864
+GimpPaletteFile,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/GimpPaletteFile.py:24
+_register_writer,5,5,0.000001,0.000001,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:487
+_parse_args,3,3,0.000001,0.000001,0.000000,0.000000,<string>:2
+<built-in method sys.exc_info>,1,1,0.000001,0.000001,0.000001,0.000001,~:0
+PaletteFile,1,1,0.000001,0.000001,0.000001,0.000001,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PaletteFile.py:22
+_create_exit_wrapper,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/contextlib.py:471
+register_decoder,3,3,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:3738
+StubImageFile,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:368
+denominator,4,4,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:386
+GradientFile,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/GimpGradientFile.py:67
+<method 'decode' of 'bytes' objects>,1,1,0.000000,0.000000,0.000000,0.000000,~:0
+cast,4,4,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/typing.py:2182
+im,4,4,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/Image.py:567
+load_end,4,4,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:331
+SupportsGetMesh,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageOps.py:417
+_RewindState,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PngImagePlugin.py:373
+PpmDecoder,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PpmImagePlugin.py:300
+<method '__enter__' of '_io._IOBase' objects>,1,1,0.000000,0.000000,0.000000,0.000000,~:0
+<method 'fileno' of '_io.BufferedReader' objects>,1,1,0.000000,0.000000,0.000000,0.000000,~:0
+__init__,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/functools.py:963
+copyto,3,3,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/multiarray.py:1098
+__init__,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/contextlib.py:355
+_Frame,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PngImagePlugin.py:1148
+<built-in method builtins.callable>,2,2,0.000000,0.000000,0.000000,0.000000,~:0
+value,2,2,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/enum.py:1292
+_shape_dispatcher,3,3,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:2114
+<built-in method sys.audit>,2,2,0.000000,0.000000,0.000000,0.000000,~:0
+normcase,1,1,0.000000,0.000000,0.000000,0.000000,<frozen posixpath>:52
+__init__,2,2,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:811
+DibImageFile,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/BmpImagePlugin.py:397
+BmpRleDecoder,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/BmpImagePlugin.py:321
+dot,2,2,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/multiarray.py:761
+_check_version,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/format.py:198
+<built-in method _imp.exec_dynamic>,1,1,0.000000,0.000000,0.000000,0.000000,~:0
+_any_dispatcher,3,3,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:2472
+_idat,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PngImagePlugin.py:1124
+<method '__exit__' of 'posix.ScandirIterator' objects>,1,1,0.000000,0.000000,0.000000,0.000000,~:0
+abstractmethod,1,1,0.000000,0.000000,0.000000,0.000000,<frozen abc>:7
+_reshape_dispatcher,2,2,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:206
+__init__,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/_ufunc_config.py:430
+<lambda>,2,2,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:467
+disable,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/logging/__init__.py:1369
+<module>,1,1,0.000000,0.000000,0.000000,0.000000,<string>:1
+PyCodecState,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/ImageFile.py:633
+GimpGradientFile,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/GimpGradientFile.py:115
+_fdat,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/PIL/PngImagePlugin.py:1135
+<method 'close' of 'generator' objects>,1,1,0.000000,0.000000,0.000000,0.000000,~:0
+<method 'keys' of 'dict' objects>,1,1,0.000000,0.000000,0.000000,0.000000,~:0
+<method 'lstrip' of 'str' objects>,1,1,0.000000,0.000000,0.000000,0.000000,~:0
+_broadcast_arrays_dispatcher,3,3,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/lib/_stride_tricks_impl.py:477
+<method 'append' of 'collections.deque' objects>,1,1,0.000000,0.000000,0.000000,0.000000,~:0
+_none_or_positive_arg,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/arrayprint.py:952
+__set_name__,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/functools.py:968
+_max_dispatcher,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3047
+__enter__,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/contextlib.py:357
+_join,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/glob.py:214
+<method 'pop' of 'collections.deque' objects>,1,1,0.000000,0.000000,0.000000,0.000000,~:0
+__init__,1,1,0.000000,0.000000,0.000000,0.000000,<frozen importlib._bootstrap_external>:1276
+<lambda>,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/site-packages/_distutils_hack/__init__.py:108
+__enter__,1,1,0.000000,0.000000,0.000000,0.000000,/opt/miniconda3/envs/FastEnv/lib/python3.12/contextlib.py:564
