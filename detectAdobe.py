@@ -37,6 +37,53 @@ def get_threshold(alpha, mu, sigma):
   """
   return mu + sigma*inv_qfunc(alpha)
 
+
+def test_statistic_roll(im_name, watermark):
+    """
+    Computes test statistics for all possible shifts of a tiled watermark pattern.
+    Assumes input image is <= 512x512 pixels (no rotation handling).
+    This was written by Author Charlie Cameron @ 29th May 2025
+    Args:
+        im_name: Path to input image (max 512x512)
+        watermark: Adobe pattern (h_w, w_w)
+        
+    Returns:
+        dict: {
+            'best_T': maximum test statistic,
+            'best_shift': (dy, dx) for best_T,
+            'all_ts': array of test statistics for all shifts,
+            'all_shifts': list of (dy, dx) tuples
+        }
+    """
+    # Load and validate image size
+    im = np.float32(np.array(Image.open(im_name)))
+    assert max(im.shape) <= 512, "Image must be <= 512x512 pixels"
+    
+    h_w, w_w = watermark.shape
+    res = prnu.extract_single(im) if im.ndim == 3 else im
+    res = res[:res.shape[0]//h_w*h_w, :res.shape[1]//w_w*w_w]
+    
+    # Precompute normalized watermark
+    W_norm = (watermark - watermark.mean()) / np.std(watermark)
+    all_ts = np.zeros((h_w, w_w))
+    
+    # Compute statistics for all shifts
+    for dy in range(h_w):
+        for dx in range(w_w):
+            shifted_res = np.roll(res, shift=(-dy, -dx), axis=(0, 1))
+            blocks = view_as_blocks(shifted_res, (h_w, w_w))
+            blocks_norm = (blocks - np.mean(blocks, axis=(-1,-2), keepdims=True)) / np.std(blocks, axis=(-1,-2), keepdims=True)
+            all_ts[dy, dx] = np.mean(W_norm * blocks_norm) * np.sqrt(blocks.size)
+    
+    # Find best shift
+    best_idx = np.unravel_index(np.argmax(all_ts), all_ts.shape)
+    return {
+        'best_T': all_ts[best_idx],
+        'best_shift': best_idx,
+        'all_ts': all_ts,
+        'all_shifts': [(dy, dx) for dy in range(h_w) for dx in range(w_w)]
+    }
+
 def test_statistic(im_name,watermark):
   """
   Computes the test statistic as given by Equation (15)
